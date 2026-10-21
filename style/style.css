@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght,GRAD@0,8..144,100..900,44;1,8..144,100..900,44&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+    display: flex;
+}
+
+.side-bar{
+    width: 345px;
+    height: 1626px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    gap: 28px;
+}
+
+.logo{
+    margin: 50px;
+}
+
+.dash{
+    width: 252px;
+    height: 54px;
+    background-color: rgb(255, 170, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    gap: 24px;
+    padding-right: 30px;
+}
+
+.dash p{
+    color: white;
+}
+
+.sidecontent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 220px;
+    gap: 14px;
+}
+
+.sidecontent span{
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+    color: grey;
+}
+
+.voucher{
+    width: 252px;
+    height: 202px;
+    background-color: orange;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.content{
+    padding-left: 20px;
+}
+
+.voucher p{
+    width: 195px;
+    height: 81px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+
+.voucher button{
+    width: 107px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+}
+
+.voucher img{
+    position: absolute;
+    right: 14px;
+    top: 18px;
+}
+
+.circle{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    left: 130px;
+    top: 120px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1150px;
+    height: 1000px;
+    padding-bottom: 540px;
+    margin-left: 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 271px;
+}
+
+.name{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    width: 180px;
+    margin-left: 20px;
+}
+
+.search{
+    width: 513px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 30px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.search input{
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.search input::placeholder{
+    font-family: "Roboto", sans-serif;
+    color: grey;
+    font-size: 16px;
+}
+
+.search img{
+    position: absolute;
+    left: 16px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.discount-{
+    width: 1040px;
+    height: 240px;
+    background-color: orange;
+    border-radius: 20px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+    width: 480px;
+    height: 160px;
+}
+
+.content h1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 320px;
+}
+
+.content p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding-top: 40px;
+    font-weight: 300;
+}
+
+.content img{
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    z-index: 1;
+}
+
+.circl1{
+    width: 285px;
+    height: 285px;
+    background-color: transparent;
+    border: 40px solid white;
+    border-radius: 50%;
+    opacity: 0.3;
+    position: absolute;
+    right: 880px;
+    top: 140px;
+}
+
+.circl2{
+    width: 285px;
+    height: 285px;
+    background-color: transparent;
+    border: 40px solid white;
+    border-radius: 50%;
+    opacity: 0.3;
+    position: absolute;
+    right: 160px;
+    bottom: 140px;
+}
+
+.circl3{
+    width: 285px;
+    height: 285px;
+    background-color: transparent;
+    border: 40px solid white;
+    border-radius: 50%;
+    opacity: 0.3;
+    position: absolute;
+    left: 880px;
+    top: 140px;
+}
