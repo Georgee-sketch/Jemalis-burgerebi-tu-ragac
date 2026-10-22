@@ -50,6 +50,11 @@ body{
     align-items: center;
     width: 220px;
     gap: 14px;
+    transition: transform 0.5s;
+}
+
+.sidecontent:hover{
+    transform: scale(1.1);
 }
 
 .sidecontent span{
@@ -68,6 +73,7 @@ body{
     align-items: center;
     position: relative;
     margin-top: 40px;
+    overflow: hidden;
 }
 
 .content{
@@ -121,6 +127,7 @@ body{
     height: 1000px;
     padding-bottom: 540px;
     margin-left: 20px;
+    margin-top: 40px;
 }
 
 .top{
@@ -184,6 +191,12 @@ body{
     padding-left: 40px;
     position: relative;
     overflow: hidden;
+    margin-top: 24px;
+    transition: transform 0.5s ;
+}
+
+.discount-:hover{
+    transform: scale(1.1)
 }
 
 .content{
@@ -246,3 +259,303 @@ body{
     left: 880px;
     top: 140px;
 }
+
+
+.cards{
+    width: 1040px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 24px;
+}
+
+.title{
+    width: 1040px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.title h1{
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.title a{
+    color: orange;
+    font-family: "Roboto", sans-serif;
+}
+
+.food{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.food-1{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.5s;
+}
+
+.food-1:hover{
+    transform: scale(1.1);
+}
+
+.food-1 img{
+    width: 56px;
+    height: 56px;
+}
+
+.food p{
+    padding-top: 16px;
+    font-family: "Roboto", sans-serif;
+    color: grey;
+}
+
+.popular{
+    width: 1040px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    margin-left: 12px;
+    margin-top: 38px;
+}
+
+.popular a{
+    color: orange;
+}
+
+.burgers{
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.burg-1{
+    width: 337px;
+    height: 363px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.burg-1:hover{
+    transform: scale(1.1);
+}
+
+.burg-1 .heart {
+    width: 24px;
+    position: absolute;
+    right: 20px;
+    top: 26px;
+}
+
+.burg-1 .ribbon{
+    width: 96px;
+    height: 32px;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+
+.burg-1 .burger-fish{
+    width: 272px;
+    height: 180px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.burg-1 .stars-1{
+    width: 136px;
+    height: 24px;
+    position: absolute;
+    bottom: 100px;
+    left: 26px;
+}
+
+.burg-1 .info-1{
+    width: 101px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    left: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.burg-1 .info-1 p:nth-child(2){
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 6px;
+}
+
+.burg-1 .button {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 34px;
+    right: 22px;
+}
+
+.burg-2{
+     width: 337px;
+    height: 363px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.burg-2:hover{
+    transform: scale(1.1)
+}
+
+.burg-2 .heart {
+    width: 24px;
+    position: absolute;
+    right: 20px;
+    top: 26px;
+}
+
+.burg-2 .ribbon{
+    width: 96px;
+    height: 32px;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+
+.burg-2 .burger-beef{
+    width: 272px;
+    height: 180px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.burg-2 .stars-1{
+    width: 136px;
+    height: 24px;
+    position: absolute;
+    bottom: 100px;
+    left: 26px;
+}
+
+.burg-2 .info-1{
+    width: 101px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    left: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.burg-2 .info-1 p:nth-child(2){
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 6px;
+}
+
+.burg-2 .button {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 34px;
+    right: 22px;
+}
+
+.burg-3{
+    width: 337px;
+    height: 363px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.burg-3:hover{
+    transform: scale(1.1);
+}
+
+.burg-3 .heart {
+    width: 24px;
+    position: absolute;
+    right: 20px;
+    top: 26px;
+}
+
+.burg-3 .ribbon{
+    width: 96px;
+    height: 32px;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+
+.burg-3 .burger-beef{
+    width: 272px;
+    height: 180px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.burg-3 .stars-1{
+    width: 136px;
+    height: 24px;
+    position: absolute;
+    bottom: 100px;
+    left: 26px;
+}
+
+.burg-3 .info-1{
+    width: 101px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    left: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.burg-3 .info-1 p:nth-child(2){
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 6px;
+}
+
+.burg-3 .button {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 34px;
+    right: 22px;
+}
+
+
+
